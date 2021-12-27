@@ -28,7 +28,7 @@ twitter_username: KorbBrandon
 github_username:  bkorb
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
