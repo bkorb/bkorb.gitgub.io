@@ -4,20 +4,20 @@
 
 layout: splash
 header:
-  image: /assets/images/header2.jpeg
+  image: /assets/images/banners/grand_canyon.jpeg
 intro: 
   - excerpt: 'Welcome to my website!'
 feature_row:
-  - image_path: assets/images/zion.jpg
+  - image_path: assets/images/thumbnails/zion.jpg
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/rollins.jpeg
+  - image_path: /assets/images/thumbnails/rollins.jpeg
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: /jekyll/update/2021/12/27/welcome-to-jekyll.html
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/sedona.jpg
+  - image_path: /assets/images/thumbnails/sedona.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
