@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Doings of a Rogue Physicist
-subtitle: Slash Engineer
+subtitle: slash Mathematician slash Engineer
 name: Brandon Korb
 email: brandon.korb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -44,6 +44,18 @@ defaults:
       related: true
       header:
         image: /assets/images/banners/grand_canyon.jpeg
+      author:
+        name: "Brandon Korb"
+        avatar: "/assets/images/thumbnails/enchilada.jpeg"
+        bio: "Physicist/Mathematician/Engineer" # Note: Markdown is allowed
+        location: "Philadelphia, PA"
+        links:
+          - label: "Twitter"
+            icon: "fab fa-fw fa-twitter-square"
+            url: "https://twitter.com/KorbBrandon"
+          - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/bkorb"
 
 
 # Build settings
@@ -52,6 +64,10 @@ minimal_mistakes_skin: "dirt"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

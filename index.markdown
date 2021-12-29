@@ -5,21 +5,27 @@
 layout: splash
 header:
   image: /assets/images/banners/grand_canyon.jpeg
-intro: 
-  - excerpt: 'Welcome to my website!'
+intro:
+  - excerpt: 'Welcome to my website!  Check out my [**About**](/about) page to learn about who I am.  See my [**Projects**](/projects) or [**Adventures**](/adventures) pages to read about my exploits.'
 feature_row:
-  - image_path: assets/images/thumbnails/zion.jpg
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: assets/images/thumbnails/enchilada.jpeg
+    title: "About"
+    excerpt: "I'm a physicist/mathematician/engineer with a passion for mountain biking, skiing, and exploring the outdoors."
+    url: /about/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/rollins.jpeg
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: /jekyll/update/2021/12/27/welcome-to-jekyll.html
+    title: "Projects"
+    excerpt: "I tinker with electronics, software, and just about everything else."
+    url: /projects/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/sedona.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Adventures"
+    excerpt: "I take my bikes, skis, or climbing gear with me whenever I feel the call of the wild."
+    url: /adventures/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
