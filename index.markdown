@@ -10,22 +10,22 @@ intro:
 feature_row:
   - image_path: assets/images/thumbnails/enchilada.jpeg
     title: "About"
-    excerpt: "I'm a physicist/mathematician/engineer with a passion for mountain biking, skiing, and exploring the outdoors."
+    #excerpt: "I'm a physicist/mathematician/engineer with a passion for mountain biking, skiing, and exploring the outdoors."
     url: /about/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/rollins.jpeg
     title: "Projects"
-    excerpt: "I tinker with electronics, software, and just about everything else."
+    #excerpt: "I tinker with electronics, software, and just about everything else."
     url: /projects/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/sedona.jpg
     title: "Adventures"
-    excerpt: "I take my bikes, skis, or climbing gear with me whenever I feel the call of the wild."
+    #excerpt: "I take my bikes, skis, or climbing gear with me whenever I feel the call of the wild."
     url: /adventures/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}

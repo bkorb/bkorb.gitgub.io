@@ -90,6 +90,7 @@
   text-align: center;
   border-radius: $border-radius;
   overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
   img {
     width: 100%;
@@ -245,8 +246,8 @@
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  margin-bottom: 1em;
+  /*border-bottom: 1px solid $border-color;*/
 
   .archive__item-title {
     margin-bottom: 0;
@@ -260,7 +261,7 @@
 
   @include breakpoint($small) {
     float: left;
-    margin-bottom: 0;
+    margin-bottom: 1em;
     width: span(4 of 12);
 
     &:nth-child(3n + 1) {
