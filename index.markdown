@@ -8,7 +8,7 @@ header:
 intro:
   - excerpt: 'Welcome to my website!  Check out my [**About**](/about) page to learn about who I am.  See my [**Projects**](/projects) or [**Adventures**](/adventures) pages to read about my exploits.'
 feature_row:
-  - image_path: assets/images/thumbnails/enchilada.jpeg
+  - image_path: images/thumbnails/enchilada.jpeg
     title: "About"
     #excerpt: "I'm a physicist/mathematician/engineer with a passion for mountain biking, skiing, and exploring the outdoors."
     url: /about/
