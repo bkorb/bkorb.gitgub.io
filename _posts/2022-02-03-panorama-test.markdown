@@ -6,4 +6,4 @@ header:
 tag: cinematography
 ---
 
-{% include panorama panorama_src="/assets/images/pano.png" %}
+{% include panorama panorama_src="images/pano.png" %}

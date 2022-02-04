@@ -7,7 +7,7 @@
 <script>
 pannellum.viewer('panorama', {
     "type": "equirectangular",
-    "panorama": "{{ include.panorama_src | relative_url }}",
+    "panorama": "{{ site.awsurl }}/{{ include.panorama_src }}",
     "autoLoad": true
 });
 </script>
