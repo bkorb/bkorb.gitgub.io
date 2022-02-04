@@ -2,5 +2,5 @@
 layout: single
 title: Electric Longboard
 header:
-  image: /assets/images/banners/
+  image: images/banners/
 ---

@@ -1,7 +1,7 @@
 ---
 title:  "Boulder Drone Cinematography"
 header:
-  image: /assets/images/banners/rollins.jpeg
+  image: images/banners/rollins.jpeg
 
 tag: cinematography
 ---

@@ -12,7 +12,7 @@
         {% if f.image_path %}
           <div class="archive__item-teaser">
             <a href="{{ f.url | relative_url }}">
-              <img src="{{ f.image_path | relative_url }}"
+              <img src="{{ site.awsurl }}/{{ f.image_path }}"
                   alt="{% if f.alt %}{{ f.alt }}{% endif %}">
               {% unless include.type %}
                 <div class="archive__item-holder">

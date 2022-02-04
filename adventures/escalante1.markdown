@@ -7,7 +7,7 @@ share: true
 related: false
 author:
   name: "Brandon Korb"
-  avatar: "/assets/images/brandon.jpeg"
+  avatar: "images/brandon.jpeg"
   bio: "Physicist/Mathematician/Engineer" # Note: Markdown is allowed
   location: "Philadelphia, PA"
   links:
@@ -21,9 +21,9 @@ author:
 title: Escalante 1
 toc: true
 header:
-  image: /assets/images/banners/zion.jpg
+  image: images/banners/zion.jpg
 ---
 
 This is all about Zion National Park
 
-![Zion National Park](/assets/images/zion.jpg)
+![Zion National Park]({{ site.awsurl }}/images/zion.jpg)

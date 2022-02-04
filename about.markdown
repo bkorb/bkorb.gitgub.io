@@ -3,11 +3,11 @@ title: About
 permalink: /about/
 layout: single
 header:
-  image: /assets/images/banners/enchilada.jpeg
+  image: images/banners/enchilada.jpeg
 author_profile: true
 author:
   name: "Brandon Korb"
-  avatar: "/assets/images/brandon.jpeg"
+  avatar: "images/brandon.jpeg"
   bio: "Physicist/Mathematician/Engineer" # Note: Markdown is allowed
   location: "Philadelphia, PA"
   links:

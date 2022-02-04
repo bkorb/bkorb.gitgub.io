@@ -4,7 +4,7 @@
 
 layout: splash
 header:
-  image: /assets/images/banners/grand_canyon.jpeg
+  image: images/banners/grand_canyon.jpeg
 intro:
   - excerpt: 'Welcome to my website!  Check out my [**About**](/about) page to learn about who I am.  See my [**Projects**](/projects) or [**Adventures**](/adventures) pages to read about my exploits.'
 feature_row:
@@ -14,13 +14,13 @@ feature_row:
     url: /about/
     #btn_label: "Read More"
     #btn_class: "btn--primary"
-  - image_path: /assets/images/thumbnails/rollins.jpeg
+  - image_path: images/thumbnails/rollins.jpeg
     title: "Projects"
     #excerpt: "I tinker with electronics, software, and just about everything else."
     url: /projects/
     #btn_label: "Read More"
     #btn_class: "btn--primary"
-  - image_path: /assets/images/thumbnails/sedona.jpg
+  - image_path: images/thumbnails/sedona.jpg
     title: "Adventures"
     #excerpt: "I take my bikes, skis, or climbing gear with me whenever I feel the call of the wild."
     url: /adventures/
