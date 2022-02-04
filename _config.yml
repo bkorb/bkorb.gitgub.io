@@ -64,6 +64,7 @@ minimal_mistakes_skin: "dirt"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-node-module
 
 tag_archive:
   type: liquid
@@ -88,3 +89,6 @@ tag_archive:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - node_modules/
