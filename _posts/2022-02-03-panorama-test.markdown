@@ -1,9 +1,11 @@
 ---
-title:  "Panorama Test"
+title:  "Boulder Panorama"
 header:
   image: images/banners/rollins.jpeg
 
-tag: cinematography
+tag: panoramas
 ---
 
-{% include panorama panorama_src="images/pano.png" %}
+This panorama was taken near the Flatirons in Boulder.
+
+{% include panorama panorama_src="images/panoramas/pano.png" %}
