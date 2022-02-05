@@ -8,4 +8,4 @@ tag: panoramas
 
 This panorama was taken near the Flatirons in Boulder.
 
-{% include panorama panorama_src="images/panoramas/pano.png" %}
+{% include panorama panorama_src="images/panoramas/flatirons.png" %}
