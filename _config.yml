@@ -18,16 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Doings of a Rogue Physicist
-subtitle: slash Mathematician slash Engineer
+title: Brandon's Website
+subtitle: Data Scientist / Computer Scientist / Physicist
 name: Brandon Korb
-email: brandon.korb@gmail.com
+email: brandon dot korb at gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
   Brandon Korb's personal site and online CV.
 baseurl: "" # the subpath of your site, e.g. /blog
 awsurl: "https://bkorb-photo-bucket.s3.us-east-2.amazonaws.com"
 url: "https://brandonkorb.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KorbBrandon
 github_username:  bkorb
 repository: "bkorb/bkorb.github.io"
 
@@ -44,16 +43,13 @@ defaults:
       share: true
       related: true
       header:
-        image: images/banners/grand_canyon.jpeg
+        image: images/banners/brevard.jpg
       author:
         name: "Brandon Korb"
         avatar: "images/brandon.jpeg"
-        bio: "Physicist/Mathematician/Engineer" # Note: Markdown is allowed
-        location: "Philadelphia, PA"
+        bio: "Data Scientist/Computer Scientist/Physicist" # Note: Markdown is allowed
+        location: "Norfolk, VA"
         links:
-          - label: "Twitter"
-            icon: "fab fa-fw fa-twitter-square"
-            url: "https://twitter.com/KorbBrandon"
           - label: "GitHub"
             icon: "fab fa-fw fa-github"
             url: "https://github.com/bkorb"
