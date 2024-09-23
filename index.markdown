@@ -4,7 +4,7 @@
 
 layout: splash
 header:
-  image: images/banners/grand_canyon.jpeg
+  image: images/banners/brevard.jpg
 intro:
   - excerpt: 'Welcome to my website!  Check out my [**About**](/about) page to learn about who I am.  See my [**Projects**](/projects) or [**Adventures**](/adventures) pages to read about my exploits.'
 feature_row:
